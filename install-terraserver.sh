@@ -52,7 +52,7 @@ mono TerrariaServer/Linux/TerrariaServer.exe -config TerrariaServer/Linux/server
 touch ~/../usr/bin/edit-serverconfig
 echo -e "#!/bin/bash\nnano $PWD/TerrariaServer/Linux/serverconfig.txt" > ~/../usr/bin/edit-serverconfig
 
-cp install-terraserver.sh ~/../usr/bin/repair-terraserver
+cp /TerrariaServer-Termux/install-terraserver.sh ~/../usr/bin/repair-terraserver
 
 chmod +x ~/../usr/bin/start-terraserver
 chmod +x ~/../usr/bin/start-terraserver-config
