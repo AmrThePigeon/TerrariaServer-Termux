@@ -41,10 +41,13 @@ rm -rf TerrariaServer/Windows
 touch TerrariaServer/Linux/serverconfig.txt
 
 touch ~/../usr/bin/start-terraserver
-echo -e "#!/bin/bash\nmono ${PWD}/TerrariaServer/Linux/TerrariaServer.exe" > ~/../usr/bin/start-terraserver
+echo -e "#!/bin/bash\nclear
+mono ${PWD}/TerrariaServer/Linux/TerrariaServer.exe
+" > ~/../usr/bin/start-terraserver
 
 touch ~/../usr/bin/start-terraserver-config
-echo -e "#!/bin/bash\nmono TerrariaServer/Linux/TerrariaServer.exe -config TerrariaServer/Linux/serverconfig.txt" > ~/../usr/bin/start-terraserver-config
+echo -e "#!/bin/bash\nclear
+mono TerrariaServer/Linux/TerrariaServer.exe -config TerrariaServer/Linux/serverconfig.txt" > ~/../usr/bin/start-terraserver-config
 
 touch ~/../usr/bin/edit-serverconfig
 echo -e "#!/bin/bash\nnano $PWD/TerrariaServer/Linux/serverconfig.txt" > ~/../usr/bin/edit-serverconfig
