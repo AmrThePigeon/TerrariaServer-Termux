@@ -9,7 +9,13 @@ pkg install git
    ```
 
 **Step 2**:
-Git clone this repo
+Git clone this repository
    ```bash
 git clone https://github.com/AmrThePigeon/TerrariaServer-Termux/
+   ```
+
+**Step 3**
+Enter the directory of the repository
+   ```bash
+cd TerrariaServer-Termux
    ```
