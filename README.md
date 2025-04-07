@@ -32,3 +32,7 @@ Run the Server Installer
    ```
 
 **You can now read the commands list and enjoy the server!**
+
+- **Make a new issue if you encounter any problems**
+
+- **Make a new discussion if you want to give me ideas to improve this server**
