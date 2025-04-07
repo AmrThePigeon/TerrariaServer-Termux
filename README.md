@@ -14,8 +14,21 @@ Git clone this repository
 git clone https://github.com/AmrThePigeon/TerrariaServer-Termux/
    ```
 
-**Step 3**
+**Step 3**:
 Enter the directory of the repository
    ```bash
 cd TerrariaServer-Termux
    ```
+**Step 4**:
+Give permissions to execute the Server Installer
+   ```bash
+chmod +x install-terraserver.sh
+   ```
+
+**Step 5**:
+Run the Server Installer
+   ```bash
+./install-terraserver.sh
+   ```
+
+**You can now read the commands list and enjoy the server!**
