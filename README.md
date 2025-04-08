@@ -36,3 +36,6 @@ Run the Server Installer
 - **Make a new issue if you encounter any problems**
 
 - **Make a new discussion if you want to give me ideas to improve this server**
+
+# Manual Installation
+Install the server manually
