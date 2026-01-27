@@ -15,21 +15,21 @@ TerrariaServer is already installed. Do you want to repair it? [Y/n]: "
             ;;
         [Nn]* )
             echo -e "\033[0;31m Aborting installation..."
-            rm -f terraria-server-1449.zip
+            rm -f terraria-server-1450.zip
             exit 0
             ;;
         * )
             echo -e "\033[0;31m Invalid choice. Aborting."
-            rm -f terraria-server-1449.zip
+            rm -f terraria-server-1450.zip
             exit 1
             ;;
     esac
 fi
 
-curl -O https://terraria.org/api/download/pc-dedicated-server/terraria-server-145.zip
-unzip terraria-server-1449.zip
-rm terraria-server-1449.zip
-mv 1449 TerrariaServer
+curl -O https://terraria.org/api/download/pc-dedicated-server/terraria-server-1450.zip
+unzip terraria-server-1450.zip
+rm terraria-server-1450.zip
+mv 1450 TerrariaServer
 chmod +x TerrariaServer/Linux/TerrariaS*
 rm TerrariaServer/Linux/System*
 rm TerrariaServer/Linux/Mono*
