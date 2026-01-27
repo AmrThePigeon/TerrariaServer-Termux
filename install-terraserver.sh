@@ -26,7 +26,7 @@ TerrariaServer is already installed. Do you want to repair it? [Y/n]: "
     esac
 fi
 
-curl -O https://terraria.org/api/download/pc-dedicated-server/terraria-server-1449.zip
+curl -O https://terraria.org/api/download/pc-dedicated-server/terraria-server-145.zip
 unzip terraria-server-1449.zip
 rm terraria-server-1449.zip
 mv 1449 TerrariaServer
