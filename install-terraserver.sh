@@ -29,7 +29,7 @@ fi
 curl -O https://terraria.org/api/download/pc-dedicated-server/terraria-server-1456.zip
 unzip terraria-server-1456.zip
 rm terraria-server-1456.zip
-mv 1450 TerrariaServer
+mv 1456 TerrariaServer
 chmod +x TerrariaServer/Linux/TerrariaS*
 rm TerrariaServer/Linux/System*
 rm TerrariaServer/Linux/Mono*
